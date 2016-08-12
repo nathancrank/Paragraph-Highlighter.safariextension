@@ -22,6 +22,10 @@
 		<array>
 			<string>p.css</string>
 		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>safari-reader://*/*</string>
+		</array>
 	</dict>
 	<key>Description</key>
 	<string>highlights p tags as you hover over to improve readability</string>
@@ -33,6 +37,8 @@
 	<dict>
 		<key>Website Access</key>
 		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
 			<key>Level</key>
 			<string>All</string>
 		</dict>

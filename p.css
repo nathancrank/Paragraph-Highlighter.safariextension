@@ -1,3 +1,11 @@
-p:hover {
+html.paper .page p:hover,
+html.paper .page li:hover,
+html.paper .page h1:hover,
+html.paper .page h2:hover,
+html.paper .page h3:hover,
+html.paper .page h4:hover,
+html.paper .page h5:hover,
+html.paper .page h6:hover
+ {
 	background-color: rgba( 200, 200, 200, .5 );
 }
